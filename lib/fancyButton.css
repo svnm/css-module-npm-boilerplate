@@ -1,0 +1,27 @@
+/* 
+  a fancy button
+  just a demo css module
+*/
+
+.button {
+  display: inline-block;
+  font-family:sans-serif;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: #0c77f8;
+  text-align:center;
+  border: 2px solid #0c77f8;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.button:hover {
+  color: #0c77f8;
+  background-color: #fff;
+}
