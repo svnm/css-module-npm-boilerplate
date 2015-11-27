@@ -12,7 +12,7 @@ Check out more css modules at [cssmodul.es](http://cssmodul.es)
 
 ## Compatible
 
-CSS Modules is only compatible with camelCase. However deku and react have mappings to use normal class names.
+CSS Modules is only compatible with camelCase. However deku and react have mappings to use *normal* class names.
 
 - [css modules](https://github.com/css-modules/css-modules)
 - [react-css-modules](https://github.com/gajus/react-css-modules)
@@ -34,9 +34,7 @@ Then add the following classes to use the styles...
 
 ```jsx
 	return (
-        <button className={styles.button} />
-        press me
-        </button>
+        <button className={styles.button}>press me</button>
     );
 ```
 
@@ -44,15 +42,13 @@ Then add the following classes to use the styles...
 
 ```jsx
 	return (
-        <button styleName='button' />
-        press me
-        </button>
+        <button styleName='button'>press me</button>
     );
 ```
 
 ## Example
 
-Check out the full working example [here](https://github.com/StevenIseki/css-module-npm-boilerplate/tree/master/example)
+Check out an example of using this css module [here](https://github.com/StevenIseki/css-module-npm-boilerplate/tree/master/example)
 
 **Run it**
 
