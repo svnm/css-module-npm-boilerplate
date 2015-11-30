@@ -56,11 +56,13 @@ Check out an example of using this css module [here](https://github.com/StevenIs
 
 ## Development
 
-The `\src` folder is for development, to build to `\lib` just run:
+The `\src` folder is for development. 
+
+To build to `\lib` just run:
 
 `npm run build`
 
-This just compiles to the `fancyButton.css` bundle in lib, as we do not expect all users to have the autoprefixer, postcss and postcss-modules-values plugins, they should be able to import the module as just plain css from the `\lib` so we compile it before publishing.
+This compiles to `fancyButton.css` bundle in lib, as we do not expect all users to have the autoprefixer, postcss and postcss-modules-values plugins, they should be able to import the module as just plain css from the `\lib` so we compile it before publishing.
 
 ## License
 
