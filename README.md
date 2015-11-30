@@ -14,6 +14,8 @@ Check out more css modules at [cssmodul.es](http://cssmodul.es)
 
 CSS Modules is only compatible with camelCase. However deku and react have mappings to use *normal* class names.
 
+This module has only camelCase classes so is compatible with:
+
 - [css modules](https://github.com/css-modules/css-modules)
 - [react-css-modules](https://github.com/gajus/react-css-modules)
 - [deku-css-modules](https://github.com/StevenIseki/deku-css-modules)
