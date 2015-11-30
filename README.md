@@ -62,7 +62,7 @@ The `\src` folder is for development.
 
 To build to `\lib` just run:
 
-`npm run build`
+`npm install; npm run build`
 
 This compiles to `fancyButton.css` bundle in lib, as we do not expect all users to have the autoprefixer, postcss and postcss-modules-values plugins, they should be able to import the module as just plain css from the `\lib` so we compile it before publishing.
 
