@@ -26,11 +26,11 @@ This module has only camelCase classes so is compatible with:
 
 ## Usage
 
-this is just a simple example css module for button styling.
-
 `import fancyButton from 'css-module-npm-boilerplate'`
 
-Then add the following classes to use the styles... the fancy button css module just has a `.button` and a color style `.blue`, `.green` or `.red`. The colors use  
+Then add the following classes to use the styles... 
+
+The fancy button css module has a `.button` and a color style `.blue`, `.green` or `.red`.
 
 **css modules**
 
