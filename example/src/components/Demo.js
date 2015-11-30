@@ -18,7 +18,9 @@ function Demo( props) {
 
     return (
     	<div styleName='demo'>
-    		<button styleName='button'>press me</button>
+    		<button styleName='button blue'>press me</button>
+    		<button styleName='button green'>press me</button>
+    		<button styleName='button red'>press me</button>
        	</div>
     );
 }

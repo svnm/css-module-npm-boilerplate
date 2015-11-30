@@ -7,6 +7,18 @@
     "type": "git",
     "url": "https://github.com/StevenIseki/css-module-npm-boilerplate.git"
   },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "css-loader": "^0.15.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "postcss-loader": "^0.7.0",
+    "postcss-modules-values": "^1.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.9.6"
+  },
   "keywords": [
     "css",
     "css-module",

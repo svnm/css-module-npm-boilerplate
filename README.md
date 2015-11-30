@@ -28,13 +28,13 @@ this is just a simple example css module for button styling.
 
 `import fancyButton from 'css-module-npm-boilerplate'`
 
-Then add the following classes to use the styles...
+Then add the following classes to use the styles... the fancy button css module just has a `.button` and a color style `.blue`, `.green` or `.red`. The colors use  
 
 **css modules**
 
 ```jsx
 	return (
-        <button className={styles.button}>press me</button>
+        <button className={styles.button + ' ' + styles.blue }>press me</button>
     );
 ```
 
@@ -42,7 +42,7 @@ Then add the following classes to use the styles...
 
 ```jsx
 	return (
-        <button styleName='button'>press me</button>
+        <button styleName='button blue'>press me</button>
     );
 ```
 
@@ -53,6 +53,14 @@ Check out an example of using this css module [here](https://github.com/StevenIs
 **Run it**
 
 `cd example; npm install; npm start`
+
+## Development
+
+The `\src` folder is for development, to build to `\lib` just run:
+
+`npm run build`
+
+This just compiles to the `fancyButton.css` bundle in lib, as we do not expect all users to have the autoprefixer, postcss and postcss-modules-values plugins, they should be able to import the module as just plain css from the `\lib` so we compile it before publishing.
 
 ## License
 
