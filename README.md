@@ -58,13 +58,23 @@ Check out an example of using this css module [here](https://github.com/StevenIs
 
 ## Development
 
-The `\src` folder is for development. 
+This is a simple version which just exports the button.css module, so there is no build step. If you wished to have multiple css modules exported, export the following from your index.js
 
-To build to `\lib` just run:
+```js
+var alerts = require('./lib/alerts.css'); 
+var buttons = require('./lib/buttons.css'); 
 
-`npm run build`
+module.exports = {
+	buttons: buttons,
+	alerts: alerts
+};
+```
 
-This compiles to `fancyButton.css` bundle in lib, as we do not expect all users to have the autoprefixer, postcss and postcss-modules-values plugins, they should be able to import the module as just plain css from the `\lib` so we compile it before publishing.
+If you want to use less, or autoprefixer or post-css in your css module use gulp or webpack as a build step, check out:
+
+- [css-module-npm-boilerplate-webpack](https://github.com/StevenIseki/css-module-npm-boilerplate-webpack)
+- [css-module-npm-boilerplate-gulp](https://github.com/StevenIseki/css-module-npm-boilerplate-gulp)
+
 
 ## License
 
