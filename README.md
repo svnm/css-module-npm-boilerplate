@@ -58,7 +58,9 @@ Check out an example of using this css module [here](https://github.com/StevenIs
 
 ## Development
 
-This is a simple version which just exports the button.css module, so there is no build step. If you wished to have multiple css modules exported, export the following from your index.js
+This is a simple boilerplate module which just exports the fancyButton.css module, so there is no build step. 
+
+If you wish to have multiple css modules exported, export the following from your index.js
 
 ```js
 var alerts = require('./lib/alerts.css'); 
@@ -70,11 +72,10 @@ module.exports = {
 };
 ```
 
-If you want to use less, or autoprefixer or post-css in your css module use gulp or webpack as a build step, check out:
+If you wish to use sass, less, autoprefixer or post-css in your css module, you can use gulp or webpack as a build step for you css, check out:
 
 - [css-module-npm-boilerplate-webpack](https://github.com/StevenIseki/css-module-npm-boilerplate-webpack)
 - [css-module-npm-boilerplate-gulp](https://github.com/StevenIseki/css-module-npm-boilerplate-gulp)
-
 
 ## License
 
