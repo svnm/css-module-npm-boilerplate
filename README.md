@@ -72,7 +72,7 @@ module.exports = {
 };
 ```
 
-If you wish to use sass, less, autoprefixer or post-css in your css module, you can use gulp or webpack as a build step for you css, check out:
+If you wish to use sass, less, autoprefixer or post-css in your css module, you can use gulp or webpack as a build step:
 
 - [css-module-npm-boilerplate-webpack](https://github.com/StevenIseki/css-module-npm-boilerplate-webpack)
 - [css-module-npm-boilerplate-gulp](https://github.com/StevenIseki/css-module-npm-boilerplate-gulp)
